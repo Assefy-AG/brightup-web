@@ -6,7 +6,7 @@ Statische Website von Brightup (Landingpage Test T1 plus Impressum/Datenschutz).
 - Sprache: Deutsch in Schweizer Schreibweise (kein Eszett: «Massnahme», «grösser»), Sie-Form. Fliesstext deutsch («KI», «Daten»); Englisch nur in Produktnamen (AI Governance Officer, Data Governance Officer, AI Literacy, Expert Check).
 - Ton: Prüfersprache, nüchtern, keine Ausrufezeichen, keine Superlative, kein Angstmarketing. Jede Aussage zu Regulatorik muss belegbar sein; im Zweifel weglassen.
 - Keine Preise, kein Abrechnungsmodell, keine Angaben zur Grösse der Zielkunden auf der Seite.
-- Keine Cookies, keine Analyse-Skripte, keine externen Einbindungen (Schriften, Video, Bilder liegen unter /assets). Wenn etwas Externes dazukommt, zuerst datenschutz.html anpassen.
+- Keine Cookies, keine Analyse-Skripte, keine externen Einbindungen (Schriften, Video, Bilder liegen unter /assets). Externe Dienste nur als Links: Cal.com (Termin, `data-termin`), LinkedIn. Wenn etwas Externes dazukommt, zuerst datenschutz.html anpassen.
 - Kunden- und Partnerlogos nur mit Freigabe; keine Logos von Behörden (FINMA, EU).
 
 ## Design-System
@@ -25,7 +25,6 @@ Statische Website von Brightup (Landingpage Test T1 plus Impressum/Datenschutz).
 ## Offene Platzhalter (vor Veröffentlichung füllen)
 - impressum.html: UID (CHE-Nummer), MWST-Nummer falls pflichtig, vertretungsberechtigte Person mit Funktion.
 - datenschutz.html: Ansprechperson für Datenschutz mit E-Mail, Hoster, Löschfrist der Server-Logs.
-- index.html: Terminlink (`data-termin`, zeigt bis dahin auf mailto).
 - AIGP- und IAPP-Kacheln: Schriftkacheln durch die offiziellen Badge-Dateien ersetzen (`<img>` in .cert-tile).
 
 ## Veröffentlichen

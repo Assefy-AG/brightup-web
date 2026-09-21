@@ -7,6 +7,14 @@ Statische Website. Lokal testen:
 
 ## Veröffentlichen (ohne Build)
 
+GitHub Pages, ohne Zusatzdienst
+1. Repo auf GitHub öffnen → Settings → Pages.
+2. Source: «Deploy from a branch», Branch `main`, Ordner `/ (root)`, Save.
+3. Nach ein bis zwei Minuten steht oben die Adresse `https://<name>.github.io/brightup-web/`. Die Pfade sind relativ, die Seite läuft dort und später unter der Domain.
+4. Eigene Domain: Settings → Pages → Custom domain `brightup.ai`, Save; die angezeigten DNS-Einträge beim Registrar setzen; danach «Enforce HTTPS» einschalten.
+Hinweis: Bei privatem Repo verlangt GitHub für Pages den Pro-Tarif; alternativ Repo auf öffentlich stellen (Settings → General → Danger Zone → Change visibility).
+
+
 Cloudflare Pages
 1. Cloudflare Dashboard → Workers & Pages → Create → Pages → Connect to Git → dieses Repo.
 2. Framework preset: None. Build command: leer. Build output directory: `/`.
