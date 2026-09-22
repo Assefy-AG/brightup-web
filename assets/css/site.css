@@ -197,6 +197,9 @@ p { margin: 0; }
 .peek__foot .link:hover { color: var(--white); }
 
 /* Rechtliches */
+/* Fusszeile auf Unterseiten immer am unteren Rand, auch bei kurzem Inhalt */
+body:has(> main.legal) { display: flex; flex-direction: column; min-height: 100vh; min-height: 100dvh; }
+body:has(> main.legal) > main.legal { flex: 1 0 auto; }
 .legal { padding-top: 56px; padding-bottom: 88px; }
 .legal__body { max-width: 780px; }
 .legal h1 { font-size: clamp(28px, 3.5vw, 40px); margin-bottom: 12px; }
